@@ -2,6 +2,11 @@ body {
   font-family: 'roboto';    
 }
 
+.navbar .container,
+.footer .container {
+  padding: 0 60px;
+}
+
 .navbar.navbar-default {
   background-color: white;
   margin-bottom: 0px;
@@ -33,13 +38,17 @@ body {
 }
 
 .call p {
+  width: 400px;
+  max-width: 100%;
+  margin: 20px auto;
   font-weight: 300;
   color: white;
 }
 
-.call button {
+.call a {
   color: rgb(113, 41, 55);
   width: 400px;
+  max-width: 100%;
   margin-bottom: 10px;
   border: none;
   border-radius: 2px;
@@ -47,10 +56,13 @@ body {
   font-size: 14px;
   padding: 12px;
 }
-.call button:hover {
+.call a:hover {
   color: rgb(113, 41, 55);
 }
 
+.info .col {
+  padding: 0px 60px;
+}
 .info h3 {
   text-transform: uppercase;
   font-size: 18px;
@@ -59,12 +71,6 @@ body {
 }
 .info p {
   line-height: 2;
-}
-.info .col-left {
-  padding-right: 80px;
-}
-.info .col-right {
-  padding-left: 80px;
 }
 
 .footer {
