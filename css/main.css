@@ -35,6 +35,9 @@ body {
   padding-top: 90px;
   padding-bottom: 140px;
   background-color: rgb(113, 41, 55);
+  background-image: url(../images/cover-1.jpg);
+  background-size: cover;
+
 }
 
 .call p {
@@ -60,7 +63,12 @@ body {
   color: rgb(113, 41, 55);
 }
 
-.info .col {
+.info {
+  margin-bottom: 80px;
+}
+
+.info .col,
+.info h3 {
   padding: 0px 60px;
 }
 .info h3 {
